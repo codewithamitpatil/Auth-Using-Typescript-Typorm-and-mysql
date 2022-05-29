@@ -9,7 +9,7 @@ export default {
     serviceUrl: 'http://localhost:5001',
     saltWorkFactor: 10,
     // for messaging
-    rabitMqUri: 'amqps://dphdaths:mcdCSia4FYQz6uTFb1PCTPNKT_Ysc0Sz@hornet.rmq.cloudamqp.com/dphdaths',
+    rabitMqUri: '',
     // for jwt token
     privateKey: 'amitisgood',
     accessTokenTtl: "10s",
@@ -27,7 +27,7 @@ export default {
         service: "gmail",
         auth: {
             user: 'amitwebdev2019@gmail.com',
-            pass: '8888565473'
+            pass: ''
         },
         tls: {
             rejectUnauthorized: false
