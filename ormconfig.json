@@ -1,0 +1,20 @@
+{
+	"type": "mysql",
+	"host": "remotemysql.com",
+	"port": 3306,
+	"username": "M18AtBwrQ3",
+	"password": "0dZoRs7h4S",
+	"database": "M18AtBwrQ3",
+	"dropSchema": false,
+	"synchronize": true,
+	"migrationsRun": false,
+	"logging": false,
+	"entities": ["src/entity/**/*.ts"],
+	"migrations": ["src/migration/**/*.ts"],
+	"subscribers": [],
+	"cli": {
+		"entitiesDir": "src/entity",
+		"migrationsDir": "src/migration",
+		"subscribersDir": "src/subscriber"
+	}
+}
